@@ -1,0 +1,49 @@
+.Heading {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  border: 2px solid rgb(128, 128, 128);
+  padding: 10px;
+  flex-wrap: wrap;
+  height: 100vh;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.item {
+  border: 2px solid black;
+  margin: 2px;
+  width: 122px;
+  height: 122px;
+  font-size: 10vh;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+#item-1 {
+  background-color: rgb(255, 0, 0);
+}
+
+#item-2 {
+  background-color: rgb(247, 255, 26);
+}
+
+#item-3 {
+  background-color: rgb(51, 245, 29);
+}
+
+#item-4 {
+  background-color: rgba(39, 255, 208, 0.914);
+}
+
+#item-5 {
+  background-color: rgba(194, 18, 217, 0.914);
+}
+
+#item-6 {
+  background-color: rgba(10, 63, 195, 0.975);
+}
